@@ -17,4 +17,4 @@ From :- Assam, India
 
 ## How to Download
 
-To Download Rare Browser [click here](https://memesoundeffects.blogspot.com/p/my-app.html) to install.
+To Download Rare Browser [click here](https://memesoundeffects.blogspot.com/p/my-app.html).
