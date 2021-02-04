@@ -1,0 +1,240 @@
+<!-- This Script is Created for Rare Browser Home Screen. Designed & Coded by Alok Das, Youtube Channel:
+    Alok Das -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1004px-Google_%22G%22_Logo.svg.png"
+        sizes="16x16" type="image/png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .first_row {
+            display: flex;
+            margin-top: 15px;
+            max-width: 768px;
+        }
+
+        .Second_row {
+            display: flex;
+            margin-top: 5px;
+            max-width: 768px;
+        }
+
+        .Third_row {
+            display: flex;
+            margin-top: 5px;
+            max-width: 768px;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            cursor: pointer;
+            margin: 3px 5px;
+        }
+
+        a div img {
+            width: 70%;
+            margin: 1px auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 0.9rem;
+        }
+
+        .rate_section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 30px auto;
+        }
+
+        .rate_section img {
+            width: 80px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            color: black;
+            background-image: linear-gradient(to bottom, #ff9933, #ff9c7c, #ffadb9, #ffc7e7, #ffe2fe, #ebe1ff, #d5e0ff, #bfdffc, #68ceea, #00bcbc, #00a572, #138808);
+            margin: 10px;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first_row">
+        <a class="item" href="https://www.facebook.com/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596027575/Browser/Facebook.webp"
+                    alt="Facebook">
+                <p>Facebook</p>
+            </div>
+        </a>
+
+        <a class="item" href="https://www.youtube.com/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596027576/Browser/Youtube.webp"
+                    alt="Youtube">
+                <p>Youtube</p>
+            </div>
+        </a>
+
+        <a class="item" href="https://www.instagram.com/">
+            <div>
+                <img src="https://www.festivalclaca.cat/imgfv/b/54-540653_500-instagram-logo-icon-gif-transparent-png-insta.png"
+                    alt="instagram">
+                <p>Instagram</p>
+            </div>
+        </a>
+
+        <a class="item" href="https://twitter.com/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596027576/Browser/Twitter.webp"
+                    alt="Twitter">
+                <p>Twitter</p>
+            </div>
+        </a>
+
+        <a class="item" href="https://www.amazon.in/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596027716/Browser/Amazon.png"
+                    alt="Amazon">
+                <p>Amazon</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="Second_row">
+        <a class="item" href="https://www.jiosaavn.com/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596027577/Browser/JioSaavn.jpg"
+                    alt="JioSaavn">
+                <p>JioSaavn</p>
+            </div>
+        </a>
+
+        <a class="item" href="https://studyadda.in/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596477199/Browser/Study.png"
+                    alt="StydyAdda">
+                <p>StydyAdda</p>
+            </div>
+        </a>
+
+        <a class="item" href="https://www.flipkart.com/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596027576/Browser/flipkart.png"
+                    alt="flipkart">
+                <p>Flipkart</p>
+            </div>
+        </a>
+
+        <a class="item" href="https://paytm.com/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596027576/Browser/Paytm.png"
+                    alt="PayTm">
+                <p>PayTm</p>
+            </div>
+        </a>
+
+        <a class="item" href="https://plusinfinity.in/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1595944105/Browser/Plusnifi.png"
+                    alt="PlusInfinity">
+                <p>PlusInfinity</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="Third_row">
+        <a class="item" href="https://mail.google.com/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596027575/Browser/Gmail.webp"
+                    alt="Gmail">
+                <p>Gmail</p>
+            </div>
+        </a>
+
+        <a class="item" href="https://epaper.livehindustan.com/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596027576/Browser/E-Paper.png"
+                    alt="E-Paper">
+                <p>E-Paper</p>
+            </div>
+        </a>
+
+        <a class="item" href="https://www.cricbuzz.com/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596027575/Browser/CricBuzz.png"
+                    alt="CricBuzz">
+                <p>CricBuzz</p>
+            </div>
+        </a>
+
+        <a class="item" href="https://www.olacabs.com/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596027576/Browser/Ola.png" alt="Ola">
+                <p>Ola</p>
+            </div>
+        </a>
+
+        <a class="item" href="https://www.railyatri.in/">
+            <div>
+                <img src="https://res.cloudinary.com/tech-developer/image/upload/v1596027960/Browser/RailYatri.png"
+                    alt="RailYatri">
+                <p>RailYatri</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="rate_section">
+        <img src="https://res.cloudinary.com/developeralok/image/upload/v1606652122/Rare_qgtxht.png"
+            alt="App Icon">
+        <p>Please Support Rare Browser</p>
+        <br>By Giving us <bold>Feedback</bold></br> 
+        <a href="https://memesoundeffects.blogspot.com/p/feedback.html">
+            <button>Feedback</button>
+        </a>
+    </div>
+
+    <div class="internet_speed">
+        <h3>Wan't to Check your Internet Speed?</h3>
+        <p>Powered by Fast.com</p>
+        <a href="https://fast.com/">
+            <button>Click here to Check</button>
+        </a>
+    </div>
+
+    <iframe width="100%" height="315" src="https://tech.economictimes.indiatimes.com/widget/technology"
+        frameborder="0"></iframe>
+
+</body>
+
+</html>
